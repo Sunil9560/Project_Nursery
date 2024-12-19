@@ -1,0 +1,86 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar h1 {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* About Section */
+.about {
+    padding: 40px 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.about h3 {
+    font-size: 1.8rem;
+    color: #4CAF50;
+    margin: 20px 0 10px;
+}
+
+.about p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+}
+
+.about ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.about ul li {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    background-color:#4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

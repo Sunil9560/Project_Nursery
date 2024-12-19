@@ -1,0 +1,243 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content:space-between;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.thumb-image {
+    mix-blend-mode: color-burn;
+    height: 180px;;
+    width: auto;
+    
+}
+
+.navbar h1 {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.navbar {
+    padding: 10px 20px;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a, input[type="text"] {
+    color: white;
+    text-decoration:none;
+    font-size: 1.1rem;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border:none;
+    border-radius: 5px;
+    color: black;
+}
+
+.fas, .fab {
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+/* Banner Section */
+.banner {
+    background-image: url('images/nursery-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.banner h2 {
+    font-size: 4rem;
+    margin: 0;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 10.5); 
+
+}
+
+.banner p {
+    font-size: 1.8rem;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 10.5);
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 10px 20px#f4c542;
+    background-color: #f4c542;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px; 
+    font-size: 2rem;
+    margin-top: 0px;
+}
+
+.cta-btn:hover {
+    background-color: #17ab35;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* Product Section */
+.products {
+    padding: 40px;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 230px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.view-btn {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.view-btn:hover {
+    background-color: #45a049;
+}
+
+/* Newsletter Section */
+.newsletter {
+    padding: 40px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.newsletter h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.subscribe-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.subscribe-btn:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    background-color:#4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.footer-links li {
+    margin-right: 15px;
+}
+
+.footer-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    color: white;
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+.social-icons a:hover {
+    color: #f4c542;
+}
+
+
+
+
+
+
