@@ -1,11 +1,8 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-  
-    
+    background-color: #f4f4f4;  
 }
 h1, h2, h3 {
     color: #2E8B57;
@@ -22,7 +19,6 @@ ul {
     padding: 0;
 }
 
-/* Navigation Bar */
 header {
     background-color: #4CAF50;
     padding: 10px 20px;
@@ -52,7 +48,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 1.1rem;
 }
-/* Shop Section */
+
 .shop {
     padding: 40px 20px;
     text-align: center;
@@ -94,7 +90,6 @@ nav ul li a {
     transform: translateY(-10px);
 }
 
-/* Footer */
 footer {
     background-color:#4CAF50;
     color: white;
@@ -102,7 +97,6 @@ footer {
     padding: 15px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .product-container {
         flex-direction: column;
@@ -115,7 +109,6 @@ footer {
 }
 
 
-/* Buy Button Styles */
 .buy-btn {
     background-color: #2E8B57;
     color: white;
